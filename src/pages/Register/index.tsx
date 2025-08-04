@@ -43,7 +43,7 @@ export const Register: FC = () => {
                 type: "success"
             });
             setForm({ name: "", email: "", password: "" });
-            navigate("/login");
+            navigate("/");
         } catch (err: any) {
             showToast({
                 title: "Registration Failed",
