@@ -36,7 +36,7 @@ export default function Register() {
                 <h2 className="text-2xl font-bold mb-4">Register</h2>
                 <input
                     type="text"
-                    name="name"
+                    name="fullName"
                     placeholder="Full Name"
                     className="w-full p-2 border rounded mb-2"
                     onChange={handleChange}
@@ -63,7 +63,17 @@ export default function Register() {
                 >
                     Register
                 </button>
+                <p className="text-sm mt-3 text-center">
+                    Already have an account?{" "}
+                    <span
+                        className="text-blue-600 cursor-pointer hover:underline"
+                        onClick={() => navigate("/login")}
+                    >
+                        Login here
+                    </span>
+                </p>
             </div>
+
         </div>
     );
 }
