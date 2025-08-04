@@ -18,7 +18,7 @@ export default function Login() {
         }
 
         try {
-            const res = await axios.post("http://localhost:3000/api/v1/login", form);
+            const res = await axios.post("http://localhost:3001/api/v1/login", form);
             const token = res.data?.data?.token;
             if (token) {
                 localStorage.setItem("token", token);

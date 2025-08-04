@@ -20,7 +20,7 @@ type JwtPayload = {
   iat?: number;
 };
 
-const API_BASE = "http://localhost:3000/api/v1";
+const API_BASE = "http://localhost:3001/api/v1";
 
 export default function Dashboard() {
   const [todos, setTodos] = useState<Todo[]>([]);
@@ -66,7 +66,7 @@ export default function Dashboard() {
         setTodos(Array.isArray(data.data) ? data.data : []);
       })
       .catch(console.error);
-  }, []);
+  }, [navigate]);
 
   const addTodo = () => {
     if (!title || !description) {
@@ -151,6 +151,9 @@ export default function Dashboard() {
   const deleteTodo = (id: number) => {
     fetch(`${API_BASE}/todos/${id}`, {
       method: "DELETE",
+      headers: {
+        Authorization: `Bearer ${localStorage.getItem("token")}`,
+      },
     }).then(() => {
       setTodos(todos.filter(t => t.id !== id));
     });

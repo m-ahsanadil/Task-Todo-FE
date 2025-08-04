@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 export default function Register() {
-    const [form, setForm] = useState({ fullName: "", email: "", password: "" });
+    const [form, setForm] = useState({ name: "", email: "", password: "" });
     const [error, setError] = useState("");
     const navigate = useNavigate();
 
@@ -18,9 +18,9 @@ export default function Register() {
         }
 
         try {
-            await axios.post("http://localhost:3000/api/v1/register", form);
+            await axios.post("http://localhost:3001/api/v1/register", form);
             alert("Registered successfully!");
-            setForm({ fullName: "", email: "", password: "" });
+            setForm({ name: "", email: "", password: "" });
             navigate("/login");
         } catch (err: any) {
 
@@ -36,7 +36,7 @@ export default function Register() {
                 <h2 className="text-2xl font-bold mb-4">Register</h2>
                 <input
                     type="text"
-                    name="fullName"
+                    name="name"
                     placeholder="Full Name"
                     className="w-full p-2 border rounded mb-2"
                     onChange={handleChange}
