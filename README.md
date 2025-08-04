@@ -13,6 +13,31 @@ Frontend React + TypeScript project for managing user registration, login, and a
 
 ---
 
+## Screenshots
+
+### User Registration
+![Register Page](./screenshots/register.png)
+
+### User Login
+![Login Page](./screenshots/login.png)
+
+### Todo Dashboard
+![Todo Dashboard](./screenshots/todo-dashboard.png)
+
+### Create New Todo
+![Create Todo](./screenshots/create-todo.png)
+
+### Update Todo
+![Update Todo](./screenshots/update-todo.png)
+
+### Delete Todo
+![Delete Todo](./screenshots/delete-todo.png)
+
+### Mark Todo as Completed
+![Complete Todo](./screenshots/complete-todo.png)
+
+---
+
 ## Getting Started
 
 ### Prerequisites
