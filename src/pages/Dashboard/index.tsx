@@ -48,6 +48,8 @@ export const Dashboard = () => {
 
     if (decoded?.name) {
       setUserName(decoded.name);
+    } else if (decoded?.unique_name) {
+      setUserName(decoded.unique_name);
     }
 
     fetch(TODO_ENDPOINTS.TODOS, {
