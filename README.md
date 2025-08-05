@@ -21,9 +21,6 @@ Frontend React + TypeScript project for managing user registration, login, and a
 ### User Login
 ![Login Page](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/main/public/screenshots/login.png)
 
-### Todo Dashboard
-![Todo Dashboard](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/main/public/screenshots/todo-dashboard.png)
-
 ### Create New Todo
 ![Create Todo](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/main/public/screenshots/create-todo.png)
 
