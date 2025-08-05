@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import FormField from "../../molecules/FormField";
 import Button from "../../atoms/Button";
+import { usePasswordToggle } from "../../../hooks/usePasswordToggle";
 
 interface LoginFormProps {
   form: { email: string; password: string };
@@ -17,6 +18,8 @@ export const LoginForm: FC<LoginFormProps> = ({
   loading,
   error,
 }) => {
+  const { showPassword, togglePassword } = usePasswordToggle();
+
   return (
     <form onSubmit={handleLogin} className="space-y-4">
       <FormField
@@ -37,6 +40,9 @@ export const LoginForm: FC<LoginFormProps> = ({
         onChange={handleChange}
         placeholder="Enter your password"
         className="mb-2"
+        showPasswordToggle={true}
+        showPassword={showPassword}
+        onTogglePassword={togglePassword}
       />
 
       {error && <p className="text-red-500 text-sm mb-2">{error}</p>}

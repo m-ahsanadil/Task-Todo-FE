@@ -4,7 +4,6 @@ type JwtPayload = {
   id: number;
   email?: string;
   name?: string;
-  unique_name?: string;
   exp?: number;
   iat?: number;
 };

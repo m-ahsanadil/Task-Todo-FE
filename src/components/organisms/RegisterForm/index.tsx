@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import FormField from "../../molecules/FormField";
 import Button from "../../atoms/Button";
+import { usePasswordToggle } from "../../../hooks/usePasswordToggle";
 
 interface RegisterFormProps {
   form: { name: string; email: string; password: string };
@@ -17,6 +18,8 @@ export const RegisterForm: FC<RegisterFormProps> = ({
   loading,
   error,
 }) => {
+  const { showPassword, togglePassword } = usePasswordToggle();
+
   return (
     <form onSubmit={handleRegister}>
       <FormField
@@ -49,6 +52,9 @@ export const RegisterForm: FC<RegisterFormProps> = ({
         placeholder="Enter your password"
         className="mb-2"
         inputClassName="focus:ring-2 focus:outline-none focus:ring-accent"
+        showPasswordToggle={true}
+        showPassword={showPassword}
+        onTogglePassword={togglePassword}
       />
 
       {error && <p className="text-red-500 text-sm mb-2">{error}</p>}
