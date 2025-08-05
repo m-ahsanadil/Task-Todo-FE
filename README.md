@@ -87,7 +87,7 @@ Frontend React + TypeScript project for managing user registration, login, and a
 ## API Endpoints (Backend)
 
 Ensure your backend supports:
-- `POST /users` — User registration
+- `POST /register` — User registration
 - `POST /login` — User login and token issuance
 - `GET /todos` — Fetch user todos
 - `POST /todos` — Create todo
@@ -99,19 +99,11 @@ Ensure your backend supports:
 ## Notes
 
 - JWT token stored in `localStorage` for authenticated requests
-- React Router (if used) handles navigation between pages
+- React Router handles navigation between pages
 - Add auth protection and token in API calls as next steps
-
----
-
-## Learn More
-
-- [React documentation](https://reactjs.org/)
-- [Tailwind CSS documentation](https://tailwindcss.com/)
-- [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
 
 ---
 
 ## License
 
-MIT License
+This project was developed as part of a company-assigned task.
