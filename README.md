@@ -16,25 +16,25 @@ Frontend React + TypeScript project for managing user registration, login, and a
 ## Screenshots
 
 ### User Registration
-![Register Page](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/public/screenshots/register.png)
+![Register Page](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/main/public/screenshots/register.png)
 
 ### User Login
-![Login Page](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/public/screenshots/login.png)
+![Login Page](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/main/public/screenshots/login.png)
 
 ### Todo Dashboard
-![Todo Dashboard](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/public/screenshots/todo-dashboard.png)
+![Todo Dashboard](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/main/public/screenshots/todo-dashboard.png)
 
 ### Create New Todo
-![Create Todo](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/public/screenshots/create-todo.png)
+![Create Todo](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/main/public/screenshots/create-todo.png)
 
 ### Update Todo
-![Update Todo](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/public/screenshots/update-todo.png)
+![Update Todo](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/main/public/screenshots/update-todo.png)
 
 ### Delete Todo
-![Delete Todo](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/public/screenshots/delete-todo.png)
+![Delete Todo](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/main/public/screenshots/delete-todo.png)
 
 ### Mark Todo as Completed
-![Complete Todo](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/public/screenshots/complete-todo.png)
+![Complete Todo](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/main/public/screenshots/complete-todo.png)
 
 ---
 
@@ -104,6 +104,14 @@ Ensure your backend supports:
 - JWT token stored in `localStorage` for authenticated requests
 - React Router (if used) handles navigation between pages
 - Add auth protection and token in API calls as next steps
+
+---
+
+## Learn More
+
+- [React documentation](https://reactjs.org/)
+- [Tailwind CSS documentation](https://tailwindcss.com/)
+- [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
 
 ---
 
