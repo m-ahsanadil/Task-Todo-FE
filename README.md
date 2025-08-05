@@ -39,7 +39,9 @@ Frontend React + TypeScript project for managing user registration, login, and a
 
 ### Prerequisites
 - Node.js (v16 or later recommended)
-- Backend API running and accessible (default assumed at `http://localhost:3000`)
+- Backend API running and accessible:
+- (Node at `http://localhost:8000`)
+- (ASP at `http://localhost:5000`)
 
 ### Installation
 
