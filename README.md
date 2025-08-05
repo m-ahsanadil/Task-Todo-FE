@@ -16,25 +16,25 @@ Frontend React + TypeScript project for managing user registration, login, and a
 ## Screenshots
 
 ### User Registration
-![Register Page](./screenshots/register.png)
+![Register Page](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/public/screenshots/register.png)
 
 ### User Login
-![Login Page](./screenshots/login.png)
+![Login Page](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/public/screenshots/login.png)
 
 ### Todo Dashboard
-![Todo Dashboard](./screenshots/todo-dashboard.png)
+![Todo Dashboard](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/public/screenshots/todo-dashboard.png)
 
 ### Create New Todo
-![Create Todo](./screenshots/create-todo.png)
+![Create Todo](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/public/screenshots/create-todo.png)
 
 ### Update Todo
-![Update Todo](./screenshots/update-todo.png)
+![Update Todo](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/public/screenshots/update-todo.png)
 
 ### Delete Todo
-![Delete Todo](./screenshots/delete-todo.png)
+![Delete Todo](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/public/screenshots/delete-todo.png)
 
 ### Mark Todo as Completed
-![Complete Todo](./screenshots/complete-todo.png)
+![Complete Todo](https://raw.githubusercontent.com/m-ahsanadil/Task-Todo-FE/public/screenshots/complete-todo.png)
 
 ---
 
