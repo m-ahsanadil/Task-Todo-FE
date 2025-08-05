@@ -78,13 +78,40 @@ Frontend React + TypeScript project for managing user registration, login, and a
 
 ---
 
-## Project Structure
+# Project Structure
 
-- `src/pages` — Contains Register, Login, and Dashboard components
-- `src/index.css` — Tailwind CSS imports
-- `tailwind.config.js` — Tailwind configuration
-- `postcss.config.mjs` — PostCSS setup
+## Core Structure
+- *src/components* — Atomic design pattern implementation
+- *src/pages* — Main application pages (Register, Login, Dashboard)
+- *src/lib* — Utility libraries and shared functions
+- *src/types* — TypeScript type definitions
+- *src/utils* — Helper functions and utilities
 
+## Component Architecture (Atomic Design)
+- *src/components/atoms* — Basic building blocks
+  - Button — Reusable button component
+  - Input — Form input components
+  - Label — Text labels for forms
+  - Text — Typography components
+  - TextAreaInput — Multi-line text input
+- *src/components/molecules* — Simple component combinations
+  - FormField — Input + label combinations
+  - toast-container — Notification display system
+  - TodoItem — Individual todo item display
+  - TodoList — Collection of todo items
+- *src/components/organisms* — Complex component sections
+  - LoginForm — Complete login form with validation
+  - RegisterForm — User registration form
+  - TodoForm — Todo creation/editing form
+- *src/components/templates* — Page layout structures
+  - AuthLayout — Layout for authentication pages
+  - DashboardLayout — Main application layout
+- *src/components/protected-route* — Route protection logic
+
+## Configuration Files
+- *index.css* — Tailwind CSS imports and global styles
+- *index.tsx* — Application entry point
+- *App.tsx* — Main application component
 ---
 
 ## API Endpoints (Backend)
