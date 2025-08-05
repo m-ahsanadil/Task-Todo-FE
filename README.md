@@ -6,7 +6,7 @@ Frontend React + TypeScript project for managing user registration, login, and a
 
 ## Features
 - User Registration with form validation and API integration
-- User Login with validation, API integration, and JWT token storage
+- User Login with validation, API integration, and JWT token storage in localStorage
 - To-Do Dashboard to create, read, update, and delete tasks
 - Tailwind CSS for responsive, clean UI styling
 - TypeScript for type safety
