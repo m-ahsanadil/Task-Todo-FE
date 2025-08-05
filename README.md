@@ -53,13 +53,17 @@ Frontend React + TypeScript project for managing user registration, login, and a
    ```bash
    npm install
    ```
+   If you encounter dependency conflicts, try:
+   ```bash
+   npm start --force
+   ```
 
-3. Start the development server:
+4. Start the development server:
    ```bash
    npm start
    ```
 
-4. Open your browser to:
+5. Open your browser to:
    ```
    http://localhost:3000
    ```
@@ -71,7 +75,6 @@ Frontend React + TypeScript project for managing user registration, login, and a
 - `npm start` — Runs the app in development mode
 - `npm test` — Launches test runner in watch mode
 - `npm run build` — Builds the app for production
-- `npm run eject` — Ejects configuration (one-way operation)
 
 ---
 
@@ -87,12 +90,12 @@ Frontend React + TypeScript project for managing user registration, login, and a
 ## API Endpoints (Backend)
 
 Ensure your backend supports:
-- `POST /register` — User registration
-- `POST /login` — User login and token issuance
-- `GET /todos` — Fetch user todos
-- `POST /todos` — Create todo
-- `PUT /todos/:id` — Update todo
-- `DELETE /todos/:id` — Delete todo
+- `POST /api/v1/register` — User registration
+- `POST /api/v1/login` — User login and token issuance
+- `GET /api/v1/todos` — Fetch user todos
+- `POST /api/v1/todos` — Create todo
+- `PUT /api/v1/todos/:id` — Update todo
+- `DELETE /api/v1/todos/:id` — Delete todo
 
 ---
 
